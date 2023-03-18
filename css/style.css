@@ -94,9 +94,9 @@ a {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1310px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 100px;
 }
 
 .flex {
@@ -455,6 +455,7 @@ a {
 
 .header__bottom-nav {
   width: 600px;
+  margin-right: 10px;
 }
 
 .header__bottom-list {
@@ -664,7 +665,7 @@ a {
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: left;
-  background-size: contain;
+  background-size: 112px 100%;
 }
 
 .podcast1 {
@@ -1409,7 +1410,7 @@ a {
 
 
 .playlist {
-  margin-bottom: 89px;
+  margin-bottom: 95px;
 }
 
 .playlist__container {
@@ -1670,8 +1671,8 @@ a {
 
 .playlist__left-bottom {
   position: absolute;
-  left: 15px;
-  bottom: 138px;
+  left: 98px;
+  bottom: 133px;
   max-width: 350px;
   padding-top: 38px;
   border-top: 1px solid #a1a6b4;
@@ -1806,6 +1807,10 @@ a {
   background-color: #121723;
 }
 
+.aboutus__container {
+  position: relative;
+}
+
 .aboutus__descr-wrapper {
   background-image: url(../img/aboutus-bg2.png), url(../img/abiutus-bg1.png);
   background-repeat: no-repeat;
@@ -1879,14 +1884,17 @@ a {
   min-width: 320px;
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  top: 40.5%;
+}
+
 .swiper-button-next {
-  top: 41%;
-  right: 20px;
+  right: 32px;
 }
 
 .swiper-button-prev {
-  left: 20px;
-  top: 41%;
+  left: 32px;
 }
 
 /* .swiper-button-next {
